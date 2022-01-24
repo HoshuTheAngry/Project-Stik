@@ -1,0 +1,4 @@
+[info]
+tilesize=32
+tileimg=Texture_Sheet.png
+background=AwesomeMossyBricks.png

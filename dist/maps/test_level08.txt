@@ -1,0 +1,35 @@
+[info]
+tilesize=32
+tileimg=testtiles.png
+[tiles]
+ :0,0:0
+l:0,64:1
+b:0,32:0
+c:32,0:0
+s:64,32:0
+h:64,64:0
+d:96,0:0
+g:96,32:0
+v:96,64:2
+k:128,0:2
+[map]
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                                                      b
+b                          b                           b
+b                       bbbb                           b
+b                          b                           b
+b                       bbbbbbbbbb                     b
+b                                                      b
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+[levers]
+3,7:1,19->l&1,18->l
+[fountains]

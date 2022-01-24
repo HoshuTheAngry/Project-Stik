@@ -1,0 +1,1 @@
+Run at 10 frames per second to match sound effect.

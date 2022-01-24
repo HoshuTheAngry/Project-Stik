@@ -1,0 +1,44 @@
+[info]
+tilesize=32
+tileimg=Texture_Sheet.png
+background=Background Tiles.png
+
+[tiles]
+b:0,0:1
+k:0,1:0
+h:0,2:0
+l:0,3:0
+g:0,4:1
+ :1,0:0
+c:0,9:0
+s:1,2:0
+v:1,3:0
+d:0,7:0
+f:1,5:0
+p:1,6:0
+
+[levers]
+(2,8) : (3,3)->d & (3,4)->d 
+
+[doors]
+(2,11) : "test_level03.txt" & (22,20)
+
+[map]
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+b   ssssss  b                            kkkkkkkkk               b
+bd          b       b                 b                          b
+bd          bc      h                 h                    bbbl  b
+bbbbb    bl b c                                            kk l  b
+b         l b kc                                              l  b
+b         l b bkb       cccc     ccc     bbbbbbbbb   bbb      l  b
+b         l    bb       b    ccc         sssssssss    h       l  b
+bl        l     bkkkkkkkb                                     l  b
+bl        b  b  bbbbbbbbb                                     l  b
+bl        h                           bbbb                bbb b  b
+bl                                   bk                          b
+bl                             kb   bk  b    b    b    b    b    b
+bl     c     b b b b b bl      kb       h    h    h    h    h   kb
+bl    c                 l                                       kb
+blp  c                  l         c                             kb
+blp c                   bcccccccccccccccccccccccccccccccccccccccbb
+bbbbbvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvb

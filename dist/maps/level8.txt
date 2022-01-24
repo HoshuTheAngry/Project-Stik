@@ -1,0 +1,56 @@
+[info]
+tilesize=32
+tileimg=Texture_Sheet.png
+background=BG2.png
+
+[tiles]
+b:0,0:1
+k:0,1:0
+h:0,2:0
+l:0,3:0
+g:0,4:1
+ :1,0:0
+c:0,9:0
+s:1,2:0
+v:1,3:0
+d:0,7:0
+f:1,5:0
+p:1,6:0
+
+[levers]
+(22,3) : (1,20)->v & (2,20)->v 
+(1,23) : (22,14)->v & (22,15)->v & (10,20)->l & (10,21)->l & (10,22)->l
+(1,15) : (11,21)->v & (11,22)->v & (11,23)->v
+(23,23) : (7,4)->c & (10,4)->c & (13,4)->c & (16,4)->c
+
+[doors]
+(2,3) : "level9.txt" & (1,24)
+(2,19) : "level7.txt" & (22,2)
+
+
+[map]
+bbbbbbbbbbbbbbbbbbbbbbbbb
+b                       b
+b                       b
+b                       b
+bbbbb              bbbblb
+b             h        lb
+b                      lb
+b                      lb
+blccckkccccckkkkkccbckkcb
+bl            h         b
+bl                      b
+bl                      b
+bbkkkbbbkkbbkkkkkbbkkbblb
+b            h        blb
+b                     blb
+b                     blb
+bbbbkkbbcbbkkkkkbbbccbblb
+b                      lb
+b                      lb
+b p                    lb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+b          b            b
+b          b            b
+b          b            b
+bbbbbbbbbbbbbbbbbbbbbbbbb

@@ -1,0 +1,47 @@
+[info]
+tilesize=32
+#size in pixels
+tileimg=images/test.png
+#relative file path for image
+
+[tiles]
+ :(0,0):0
+l:(0,1):1
+b:(0,2):0
+c:(1,0):0
+s:(1,1):0
+h:(1,2):0
+d:(2,0):0
+g:(2,1):0
+v:(2,2):2
+k:(3,0):2
+#continue like this for each tile type
+#change coordinates to match tiles.png
+#the last character defines walkable/climbable etc.
+#0 is passable, 1 is solid, 2 is deathable
+
+[levers]
+#(coordinate of lever) : (coordinate to change)->tile to change into & (coordinate to change)->tile to change into
+
+(3,7):(1,19)->l,(1,18)->c
+
+#will change tile at (1,19) to l and will change tile at (1,18) to c when lever is activated
+
+[map]
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+b                                                                b
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
